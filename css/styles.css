@@ -44,17 +44,19 @@ h6 {
 }
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
+}
+
+.section {
+  padding: 120px 0;
 }
 
 /*------------- header-------------- */
 
 .header {
-  padding-block: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
-
 .header-container {
   display: flex;
   align-items: center;
@@ -93,6 +95,8 @@ h6 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  display: block;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -164,9 +168,8 @@ h6 {
   min-width: 169px;
   height: 56px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 16px 32px;
+  border: none;
 }
 
 .hero-btn:hover,
@@ -217,6 +220,17 @@ h6 {
   gap: 24px;
 }
 
+.card-content {
+  padding: 32px 0;
+  text-align: center;
+  border-radius: 0 0 4px 4px;
+}
+
+.card-subtitle,
+.card-text {
+  margin: 0;
+}
+
 .team-title {
   color: #2e2f42;
   font-weight: 700;
@@ -238,13 +252,19 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  padding: 8px;
   margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team-text {
   text-align: center;
   margin-bottom: 32px;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*-------------portfolio-------------- */
