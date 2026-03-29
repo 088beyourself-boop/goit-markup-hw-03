@@ -47,8 +47,6 @@ h6 {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*------------- header-------------- */
@@ -101,10 +99,6 @@ h6 {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
-}
-
-.contacts {
-  margin-left: auto;
 }
 
 .contacts-link {
